@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --wp--preset--font-size--small: 11px;
+    --wp--preset--font-size--medium: 20px;
+    --wp--preset--font-size--large: 32px;
+    --wp--preset--font-size--x-large: 42px;
+    --wp--preset--font-size--regular: 15px;
+    --wp--preset--font-size--larger: 50px;
+    --wd--text-color-black: #111111;
+    --wd--text-color-grey: #111111;
+
+    --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+    --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+    --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+    --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+    --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+    --wd-title-font-open: "open sans", "open sans regular", Arial, Helvetica, sans-serif;
+    --wd-title-font-roboto: "roboto", Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 1240px !important;
+}
+
+.top-title p, .top-title ul li {
+    font-size: var(--wp--preset--font-size--small);
+    font-family: var(--wd-title-font-open);
+}
+.top-title i {
+    font-size: var(--wp--preset--font-size--small);
+}
+.date-top {
+    padding: 5px 10px;
+}
+.logo-image {
+    padding: 28px 0 10px 0;
+}
+.img-logo-one {
+    max-width: 272px !important;
+}
+.nav-link {
+    font-family: var(--wd-title-font-open);
+    font-weight: 700;
+    font-size: var(--wp--preset--font-size--regular);
+    color: #000000;
+}
+.search-icon {
+    font-size: var(--wp--preset--font-size--medium);
+}
+.dropdown-menu, .dropdown-menu-sub {
+    border: 1px solid #dcdcdc !important;
+    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.1);
+}
+.dropdown-menu li {
+    padding: 8px 10px !important;
+    border-bottom: 1px solid #f3f3f3;
+    font-size: 12px;
+}
+.dropdown-menu li span {
+    color: #4db2ec;
+    padding: 0 4px 0 6px;
+    background-color: #f0f8ff;
+    font-size: 10px;
+    border-radius: 50px;
+}
+.dropdown-menu li:hover {
+    color: #4db2ec;
+    cursor: pointer;
+}
+.sub-menu-list{
+    color: #000000;
+    background-color: #ffffff;
+    width: 250px !important;
+}
+.dropdown-menu-sub {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+.dropdown-menu li:hover .dropdown-menu-sub {
+    display: block;
+}
+.mega-menu-carousal .owl-prev, .mega-menu-carousal .owl-next {
+    width: 25px !important;
+    height: 25px !important;
+    border: 1px solid #dcdcdc !important;
+    color: #b7b7b7 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mega-menu-carousal .owl-nav {
+    text-align: start !important;
+    
+}
+.mega-menu-carousal .owl-prev:hover, .mega-menu-carousal .owl-next:hover {
+    background: #4db2ec !important;
+    border: 1px solid #4db2ec !important;
+}
+.menu-item-box-one ul li{
+    padding: 5px 22px;
+    color: var(--wd--text-color-grey);
+    font-size: 13px;
+    font-family: var(--wd-title-font-open);
+    font-weight: 600;
+}
+.menu-item-box-one ul {
+    width: 200px;
+    border-right: 1px solid #eaeaea;
+}
+.menu-item-box-one ul li:hover {
+    color: #4db2ec;
+    cursor: pointer;
+}    
+.text-mini {
+    bottom: 0;
+    left: 0;
+    padding: 3px 6px;
+    font-size: var(--wp--preset--font-size--small);
+}
+.img-one img {
+    height: 200px;
+    object-fit: cover;
+}
+.img-one-title h2 {
+    font-size: var(--wp--preset--font-size--regular);
+    color: var(--wd--text-color-black);
+}
+.img-one-title p {
+    font-size: var(--wp--preset--font-size--small);
+    color: var(--wd--text-color-grey);
+}
+.card {
+    border: none !important;
+}
+.carousel-caption {
+    top: 0 !important;
+}
+.trending-text h5 {
+    font-size: 12px;
+    font-weight: 500;
+}
+.img-one-title h2, .trending-text h5, p, .list-menu-one ul li, .list-menu-one h6, .card-title, .connected-title h6 {
+    font-family: var(--wd-title-font-roboto);
+}
+.img-one-title p, .card-text, .recent-comments p, .dropdown-menu li {
+    font-family: var(--wd-title-font-open);
+}
+.carousel-control-next, .carousel-control-prev {
+    height: 20px;
+    top: 50% !important;
+}
+.carousel-inner {
+    height: 50px !important;
+}
+.carousel-caption:hover .trending-text h5, .tradding-img-one:hover .trading-title h5  {
+    background-color: #4db2ec !important;
+    transition: 0.3s;
+}
+.popular-side .card-body {
+    padding: 0 10px;
+}
+.img-trd-one {
+    transition: 0.3s;
+    height: -webkit-fill-available !important;
+    width: 100%;
+}
+.img-trd-one:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.trading-title p, .trading-title h5 {
+    font-size: var(--wp--preset--font-size--small);
+}
+.trading-title h5, .connected-title h6, .list-menu-one h6, .connected-title h6  {
+    width: max-content;
+}
+.trading-title {
+    bottom: 5px;
+    left: 10px; 
+}
+.list-menu-one ul li, .card-text, .trending-text p {
+    font-size: 14px;
+}
+.list-menu-one ul li, .card-item p {
+    color: #767676;
+}
+.title-head {
+    font-size: 21px !important;
+    font-weight: 400 !important;
+}
+.design-one h5, .recent-comments p, .follow-text-size, .list-menu-one h6, .connected-title h6, .card-title {
+    font-size: 13px !important;
+    font-weight: 500 !important;
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky !important;
+    top: 0;
+    height: 1750px;
+  }
+.performance-title h5, .latest-title h5 {
+    font-size: 22px !important;
+    font-weight: 400 !important;
+}
+.news-paper-img {
+    padding: 40px 0 !important;
+}
+.sticky-one {
+    position: -webkit-sticky;
+  position: sticky !important;
+  top: 0;
+  height: 600px;
+}
+
+.border-line {
+    width: 70% !important;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 20px 0 40px 0;
+}
+.footer-img {
+    background-color: #111111;
+    padding: 54px 20px;
+}
+.footer-img-title, .design-img {
+    padding: 0 10px 0 0;
+}
+
+.footer-img::before {
+    position: absolute;
+    content: "" !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-image: url(./images/footer-bg1.jpg);
+    z-index: 1 !important;
+    opacity: 0.1 !important;
+    background-size: cover !important;
+    background-position: center top !important;
+}
+.footer-one-menu h4 {
+        font-size: 18px;
+}
+.footer-title {
+    padding: 0 10px !important;
+}
+.footer-title-one h5 {
+    font-size: 14px;
+    font-weight: 500 !important;
+}
+.footer-title-one p {
+    font-size: 11px;
+    color: #767676;
+}
+.footer-title h5 {
+    font-size: 18px;
+    padding-bottom: 26px;
+}
+.footer-title p {
+    font-size: 14px;
+    color: #767676;
+}
+.social-icon-footer {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    background: rgba(255, 255, 255, 0.03);
+    padding: 5px;
+}
+.copy-right {
+    color: #cccccc;
+    padding: 10px 0;
+    font-size: var(--wp--preset--font-size--small);
+}
+
+
+
+
+
+@media (max-width:1299px) {
+    .img-logo-one {
+    max-width: 220px;
+    }
+}
+
+@media (max-width:1024px) {
+    .img-logo-two {
+    max-width: 460px;
+    }
+    .follow-text-size, .card-item p {
+        font-size: 12px !important;
+    }
+    .latest-title h5, .card-item h5 {
+        font-size: 17px !important;
+    }
+
+} 
+
+@media (max-width:992px) {
+    .navbar {
+        background-color: #000000 !important;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        color: #ffffff;
+        z-index: 1;
+    }
+    .logo-image {
+        padding: 41px 0 10px 0;
+    }
+    .news-section {
+        padding-top: 50px;
+    }
+    .nav-link {
+        color: #ffffff;
+    }
+    .navbar-toggler {
+        background-color: #ffffff !important ;
+    }
+    .trad-box-two {
+        display: flex;
+        gap: 10px;
+        overflow-x: scroll;
+        min-width: 990px;
+    }
+    .tradding-img-one {
+        padding: 0 !important;
+    }
+    .trending-text h5, .trending-text p, .performance-title p {
+        font-size: 12px !important;
+    }
+    .performance-title h5 {
+        font-size: 17px !important;
+    }
+    .performance-title p{
+        margin: 0;
+    }
+    a.nav-link.show, .nav-link:focus, .nav-link:hover {color: #ffffff !important;}
+    
+}
+
+@media (max-width:768px) {
+    .img-logo-two, .img-logo-one {
+    display: none !important;
+    }
+    .img-logo-three {
+        width: 200px;
+    }
+    .logo-image {
+        justify-content: center !important;
+        position: absolute;
+        top: 2%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+    .search-icon {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+    }
+    .carousel-inner {
+        height: 80px !important;
+    }
+    .trending-text {
+        justify-content: center !important;
+        gap: 0 !important;
+    }
+    .trading-title h3 {
+        font-size: 20px;
+    }
+    .card-item {
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 100% !important;
+    }
+    .design-one {
+        padding: 0 10px !important;
+    }
+    .card-miss-one {
+        width: 100% !important;
+    }
+    .sticky, .sticky-one {
+        height: max-content;
+        position: static;
+    }
+    .logo-img {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .logo-img img {
+        width: 275px;
+    }
+    .footer-title h5 {
+        text-align: center !important;
+    }
+    .popular-side h5, .popular-side p {
+        font-size: 12px !important;
+    }
+    .popular-side .col-md-8 .card-body {
+        padding: 0 10px !important;
+    }
+} 
+
+@media (max-width:524px) {
+    .img-logo-three {
+        width: 150px;
+    }
+    .navbar-toggler {
+        padding: 0px 4px !important;
+    }
+    .logo-image {
+        top: 2%;
+    }
+    .trading-title h3 {
+        font-size: 16px !important;
+    }
+    .img-sm-one {
+        height: 250px !important;
+    }
+    .img-sm-two {
+        object-fit: cover;
+    }
+    .house-design h5 {
+        font-size: 12px !important;
+        font-weight: 400 !important;
+    }
+    .news-paper-img {
+        padding: 20px 0 !important;
+    }
+    .design-one h5 {
+        font-size: 11px !important;
+    }
+    
+}
